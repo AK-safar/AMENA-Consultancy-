@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="AMENA Consultancy offers premium healthcare and concierge services in Germany, specializing in medical tourism, personalized patient care, and luxury wellness experiences. Explore our VIP travel, transportation, and accommodation solutions across the GCC and AMENA regions.">
+    <meta name="keywords" content="healthcare consultancy, medical tourism, wellness services, VIP healthcare, luxury healthcare, concierge services, personalized healthcare, medical concierge, patient care, wellness programs, health journey, healthcare solutions, medical travel, medical assistance, medical tourism services, healthcare coordination, healthcare guidance, healthcare experts, healthcare consulting, travel planning, luxury travel, VIP travel services, transportation services, chauffeured services, airport transfers, GCC region, AMENA region, Middle East healthcare, Arabic healthcare services, Germany healthcare, Hannover healthcare, medical specialists, healthcare providers, healthcare network">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/ic_omg.png">
+    <title>AMENA Consultancy</title>
+
+
+       <!-- Google Font -->
+       <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+<!-- Navigation Bar -->
+
+    <!-- Other navigation links and content -->
+    <div id="custom_translate_icon">
+        <button id="translate_button">
+            <img src="img/partners/translet.png" alt="Translate" class="translate-icon" />
+        </button>
+    </div>
+
+<!-- Custom Google Translate Integration -->
+<div id="google_translate_element">
+    <div class="skiptranslate goog-te-gadget" dir="ltr">
+        <div id=":0.targetLanguage" class="goog-te-gadget-simple">
+            <!-- Customize your Google Translate widget here -->
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for Custom Translation Icon and Google Translate Interaction -->
+<script type="text/javascript">
+    // Function to toggle Google Translate widget and custom icon simultaneously
+    function toggleTranslateWidget() {
+        var translateElement = document.getElementById('google_translate_element');
+        if (translateElement.style.display === 'none' || translateElement.style.opacity === '0') {
+            translateElement.style.display = 'block';
+            translateElement.style.opacity = '1';
+        } else {
+            translateElement.style.display = 'none';
+            translateElement.style.opacity = '0';
+        }
+    }
+
+    // Event listener for custom translate icon button
+    document.getElementById('translate_button').addEventListener('click', function(event) {
+        // Prevent default button behavior
+        event.preventDefault();
+        
+        // Call function to toggle translate widget visibility
+        toggleTranslateWidget();
+    });
+
+    // Google Translate initialization function
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+</script>
+
+<!-- Load Google Translate API -->
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- Font Awesome Icons (if needed) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Page Preluder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <div class="booking-form" id="booking-form">
+        <div class="booking-form-content">
+            <button class="close-btn" id="close-appointment-btn">×</button>
+            <!-- Embed Google Form -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefDaA-HOEMNvDK-E_OEuhXH_TClneNxcDBHTf0TuD65cRiCQ/viewform?embedded=true" width="540" height="1915" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="canvas-open">
+        <i class="fas fa-bars icon_menu"></i> <!-- Burger menu icon -->
+    </div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="fas fa-times icon_close"></i> <!-- Close (X) icon -->
+        </div>
+            <div class="header-configure-area">
+                <!-- Small screen size button -->
+            <a href="#" class="bk-btn" id="schedule-appointment-btn-small">Schedule an Appointment</a>
+        </div>
+        <nav class="mainmenu mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./how-it-works.html">How It Works</a></li>
+                <li><a href="./packages.html">Packages</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="top-social">
+            <a href="https://www.linkedin.com/company/AMENA-consultancy/posts/?feedView=all&viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+            <a href="./404_page.html"><i class="fab fa-instagram"></i></a>
+            <a href="./404_page.html"><i class="fab fa-x"></i></a>
+            <a href="https://youtube.com/@AMENAconsultancy?si=5A_h_wMaJED0P2NA"><i class="fab fa-youtube-play"></i></a>
+        </div>
+        <ul class="top-widget">
+            <li><i class="fas fa-phone"></i> +49 178 5938799</li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@amenaconsultancy.de" class="email-link">info@amenaconsultancy.de</a></li>
+        </ul>
+    </div>
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="tn-left">
+                            <li><i class="fas fa-phone"></i> +49 178 5938799</li>
+                            <li><i class="fas fa-envelope"></i> <a href="mailto:info@amenaconsultancy.de" class="email-link">info@amenaconsultancy.de</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tn-right">
+                            <div class="top-social">
+                                <a href="https://www.linkedin.com/company/AMENA-consultancy/posts/?feedView=all&viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+                                <a href="./404_page.html"><i class="fab fa-instagram"></i></a>
+                                <a href="./404_page.html"><i class="fab fa-x"></i></a>
+                                <a href="https://youtube.com/@AMENAconsultancy?si=5A_h_wMaJED0P2NA"><i class="fab fa-youtube-play"></i></a>
+                            </div>
+                            <!-- Big screen size button -->
+                            <a href="#" class="bk-btn" id="schedule-appointment-btn-big">Schedule an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img/logo.png" alt="Logo" id="logo-image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <nav class="mainmenu">
+                                <ul>
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <li><a href="./about-us.html">About Us</a></li>
+                                    <li><a href="./services.html">Services</a></li>
+                                    <li><a href="./how-it-works.html">How It Works</a></li>
+                                    <li><a href="./packages.html">Packages</a></li>
+                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1>AMENA Consultancy</h1>
+                        <p>is your trusted concierge service, specializing in connecting individuals with essential medical services alongside accommodation and transportation solutions. With personalized assistance and expert guidance, we streamline the process of accessing medical care, ensuring comfort and convenience for every client.</p>
+                        <a href="./packages.html" class="primary-btn" id="schedule-appointment-btn">CHeck Our Packages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg">
+                <div class="dark-overlay"></div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
+                <div class="dark-overlay"></div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg">
+                <div class="dark-overlay"></div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-4.jpg">
+                <div class="dark-overlay"></div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-5.jpg">
+                <div class="dark-overlay"></div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-6.jpg">
+                <div class="dark-overlay"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Begin -->
+    <section class="aboutus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <span>About Us</span>
+                            <h2>AMENA Consultancy Group</h2>
+                        </div>
+                        <p class="f-para">AMENA Consultancy Group is based in Hannover, Germany, comprising a diverse group of young individuals with vibrant cultural backgrounds. We offer services in Arabic, English, and German languages.</p>
+                    <p class="s-para">We are dedicated to providing personalized assistance and support to individuals seeking medical services and other related solutions.</p>
+                    <a href="./about-us.html" class="primary-btn about-btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="img/about/about-1.jpg" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/about/about-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section End -->
+   
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>What We Do</span>
+                        <h2>How It Works?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+           <!-- Step 1: Initial Consultation -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-item">
+                    <i class="fa-solid fa-hospital fa-2xl"></i>
+                    <h4>Initial Consultation</h4>
+                    <p>Before you even book your flight, connect with our <strong>Medical Consultancy</strong> department. Discuss your health concerns and get expert guidance to ensure we understand your medical needs.</p>
+                </div>
+            </div>
+    
+                <!-- Step 2: Planning Your Travel -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-plane fa-2xl"></i>
+                        <h4>Planning Your Travel</h4>
+                        <p>Next, we move to <strong>Travel Planning</strong>. Our team crafts a customized itinerary just for you. We book the best flights that suit your preferences, from standard commercial flights to luxurious private jets.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 3: Arrival and Transportation -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-taxi fa-2xl"></i>
+                        <h4>Arrival & Transportation</h4>
+                        <p>Upon your arrival in Germany, our <strong>Transportation</strong> service takes over. A friendly chauffeur greets you at the airport and drives you to your destination in comfort.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 4: VIP Accommodation -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-house fa-2xl"></i>
+                        <h4>VIP Accommodation</h4>
+                        <p>Once you reach your destination, check into your pre-arranged <strong>Accommodation</strong>. We have selected the most comfortable and convenient lodging options to make your stay as pleasant as possible.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 5: Personal Assistance -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-handshake-angle fa-2xl"></i>
+                        <h4>Personal Assistance</h4>
+                        <p>During your stay, you have access to a <strong>Personal Assistant</strong>. This dedicated assistant helps you manage tasks and errands, from booking appointments to handling daily chores.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 6: Savoring Delicious Meals -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-burger fa-2xl"></i>
+                        <h4>Savoring Delicious Meals</h4>
+                        <p>For your meals, our <strong>Catering Service</strong> ensures you enjoy delicious, tailored dining experiences. Whether it's a cocking, restaurant or a delivery, we provide food that suits your tastes and dietary needs.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 7: Maintaining Cleanliness -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-pump-soap fa-2xl"></i>
+                        <h4>Maintaining Cleanliness</h4>
+                        <p>To keep your environment pristine, our <strong>Cleaning Service</strong> professionals regularly clean and maintain your space, ensuring it remains clean and hygienic for a better and heather environment.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 8: Hassle-Free Shopping -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                        <h4>Hassle-Free Shopping</h4>
+                        <p>If you need to shop for anything, our <strong>Shopping Service</strong> is at your disposal. From groceries to personal items, we handle your shopping needs, saving you time and effort.</p>
+                    </div>
+                </div>
+    
+                <!-- Step 9: Always There for You -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa-solid fa-clock fa-2xl"></i>
+                        <h4>Always There for You</h4>
+                        <p>Our <strong>24/7 365 Services</strong> ensure that support is just a call away, any time of the day or night, every day of the year. Whether you need assistance or have a special request, we’re here to help.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+    
+    <!-- Home Room Section Begin -->
+<section class="hp-room-section">
+    <div class="container-fluid">
+        <div class="hp-room-items">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>Our Partners</span>
+                    <h2>Featured Hospitals</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6"> 
+                    <div class="hp-room-item dark-overlay set-bg" data-setbg="img/room/MHH.jpg">
+                        <div class="hr-text">
+                            <h3>Hannover Medical School Hospital</h3>
+                            <h2>Hannover</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max Patient 1200</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>remote Bed</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.mhh.de/en/" class="primary-btn">More Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="hp-room-item dark-overlay set-bg" data-setbg="img/room/INI.jpg">
+                        <div class="hr-text">
+                            <h3>International Neuroscience Institute.</h3>
+                            <h2>Hannover</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max Patient 1200</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>remote Bed</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.ini-hannover.de/en/" class="primary-btn">More Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-3 col-md-6">
+                    <div class="hp-room-item dark-overlay set-bg" data-setbg="img/room/UHC.jpg">
+                        <div class="hr-text">
+                            <h3>University Heart & Vascular Center.</h3>
+                            <h2>Hamburg</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max Patient 1200</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>remote Bed</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.uke-io.de/medical-services/university-heart-vascular-center-hamburg.html" class="primary-btn">More Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="hp-room-item dark-overlay set-bg" data-setbg="img/room/CB.jpg">
+                        <div class="hr-text">
+                            <h3>Charité University.</h3>
+                            <h2>Berlin</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max Patient 1200</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>remote Bed</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.charite.de/en/" class="primary-btn">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Home Room Section End -->
+
+<!-- Blog Section Begin -->
+<section class="blog-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Hospital Overviews</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="hospitalVideoSlider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="video-embed">
+                                <h4>Hannover Medical School Hospital</h4>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/b4tPGo9vq3U?si=zBUs7A_qB6U8PBTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <p>Introduction to Hannover Medical School Hospital and its facilities.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="video-embed">
+                                <h4>International Neuroscience Institute</h4>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEY7k-Z3YQ8?si=YP4iyWD0ZbjBnx7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <p>Your specialist for temporomandibular joint issues and disorder.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="video-embed">
+                                <h4>University Heart & Vascular Center</h4>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/r1l8kylgxx8?si=OFJ0fi6giPcRXywM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <p>An overview of the University Heart & Vascular Center in Hamburg.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="video-embed">
+                                <h4>Charité University</h4>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pDlPICzXfR8?si=rXDxgXDxTEsXDvbi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <p>Discover the renowned Charité University and its medical services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#hospitalVideoSlider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#hospitalVideoSlider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Blog Section End -->
+    <!-- Testimonial Section Begin 
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Testimonials</span>
+                        <h2>What Customers Say?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="ts-item">
+                            <p>After a construction project took longer than expected, my husband, my daughter and I
+                                needed a place to stay for a few nights. As a Chicago resident, we know a lot about our
+                                city, neighborhood and the types of housing options available and absolutely love our
+                                vacation at s Hotel.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Alexander Vasquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                        <div class="ts-item">
+                            <p>After a construction project took longer than expected, my husband, my daughter and I
+                                needed a place to stay for a few nights. As a Chicago resident, we know a lot about our
+                                city, neighborhood and the types of housing options available and absolutely love our
+                                vacation at s Hotel.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Alexander Vasquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+     
+    <!-- Blog Section Begin -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Sightseeing</span>
+                        <h2>Blog & Activities</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-1.jpg">
+                        <div class="bi-text">
+                        <span class="b-tag">Medical Tour</span>
+                        <h4 style="color: white;"> Charité Universitätsmedizin</h4>
+                        <div class="b-time"><i class="icon_clock_alt"></i><strong>10th Jun, 2024</strong></div>
+                        <div class="hover-text">
+                            <p>Details</p>
+                            <li><strong>Charité Universitätsmedizin - Berlin</strong><br>
+                                - Description: Charité is one of Europe’s largest university hospitals, known for its outstanding research and medical care. With over 300 years of history, Charité has a rich legacy of medical excellence.<br>
+                                - Specialties: Cardiology, Oncology, Neurology, and more.<br>
+                                - Patient Experience: Charité is praised for its comprehensive care and state-of-the-art facilities. The hospital's international office ensures that foreign patients receive personalized assistance throughout their stay.<br>
+                                <a href="https://www.charite.de/en/" class="primary-btn" style="color: black;">More Details</a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-item set-bg" data-setbg="img/blog/blog-2.jpg">
+                    <div class="bi-text">
+                        <span class="b-tag">Medical Tour</span>
+                        <h4 style="color: white;"> Hannover Medical School (MHH)</h4>
+                        <div class="b-time"><i class="icon_clock_alt"></i>10th Jun, 2024</div>
+                        <div class="hover-text">
+                            <p>Details</p>
+                            <li><strong>Hannover Medical School (MHH) - Hannover</strong><br>
+                                - Description: MHH is one of Germany's leading medical institutions, renowned for its research and patient care. It is a pioneer in transplant medicine and offers cutting-edge treatments across various specialties.<br>
+                                - Specialties: Transplantation, Oncology, Cardiovascular Medicine, and more.<br>
+                                - Patient Experience: MHH is known for its patient-centered approach and advanced medical technologies. The international office at MHH provides comprehensive services to ensure a smooth and comfortable experience for international patients, from translation services to accommodation arrangements.<br>
+                                <a href="https://www.mhh.de/en/" class="primary-btn" style="color: black;">More Details</a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-item set-bg" data-setbg="img/blog/blog-3.jpg">
+                    <div class="bi-text">
+                        <span class="b-tag">Medical Tour</span>
+                        <h4 style="color: white;"> Heidelberg University Hospital </h4>
+                        <div class="b-time"><i class="icon_clock_alt"></i>10th Jun, 2024</div>
+                        <div class="hover-text">
+                            <p>Details</p>
+                                <li><strong>Heidelberg University Hospital - Heidelberg</strong><br>
+                                    - Description: A leader in cancer research and treatment, this hospital is famous for its innovative therapies and cutting-edge technology. Heidelberg University Hospital collaborates with the German Cancer Research Center to provide the latest in cancer care.<br>
+                                    - Specialties: Oncology, Surgery, Neurology, and more.<br>
+                                    - Patient Experience: Patients appreciate the hospital's holistic approach, which includes psychological support and personalized treatment plans. The international patient office provides extensive support, from visa assistance to language interpretation.<br>
+                                    <a href="https://www.klinikum.uni-heidelberg.de/" class="primary-btn" style="color: black;">More Details</a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="blog-item  set-bg" data-setbg="img/blog/blog-4.jpg">
+                    <div class="bi-text">
+                        <span class="b-tag">German Tour</span>
+                        <h4 style="color: white;"> Harz Mountains</h4>
+                        <div class="b-time"><i class="icon_clock_alt"></i>25th April, 2024</div>
+                        <div class="hover-text">
+                            <p>Discover</p>
+                                <li><strong>Herz Mountain - Bavaria</strong><br>
+                                    - Description: Nestled in the Bavarian Alps, Herz Mountain offers a serene environment for medical treatment with breathtaking views. Known for its holistic approach and personalized care, the clinic integrates traditional healing methods with modern technologies.<br>
+                                    - Specialties: Rehabilitation, Wellness Programs, Alternative Medicine.<br>
+                                    - Patient Experience: Patients enjoy comprehensive care and access to recreational activities like hiking and skiing. The international patient services ensure a comfortable stay with assistance in travel arrangements and language support.<br>
+                                    <a href="https://en.harzinfo.de/" class="primary-btn" style="color: black;">More Details</a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-item set-bg" data-setbg="img/blog/blog-5.jpg">
+                    <div class="bi-text">
+                        <span class="b-tag">German Tour</span>
+                        <h4 style="color: white;">Black Forest</h4>
+                        <div class="b-time"><i class="icon_clock_alt"></i><strong>15th April, 2024</strong></div>
+                        <div class="hover-text">
+                            <p>Discover</p>
+                                <li><strong>Black Forest - Baden-Württemberg</strong><br>
+                                    - Explore the beauty of Germany's Black Forest, known for its dense woodland, picturesque villages, and health resorts. This region offers a serene environment conducive to relaxation and wellness.<br>
+                                    - Specialties: Spa Treatments, Respiratory Health, Natural Remedies.<br>
+                                    - Patient Experience: Visitors to the Black Forest enjoy rejuvenating therapies amidst stunning natural landscapes. Medical facilities here combine modern treatments with traditional healing methods.<br>
+                                    <a href="https://www.blackforestgermany.com/" class="primary-btn" style="color: black;">More Details</a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section spad-3">
+        <div class="container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ft-about">
+                            <div class="logo-container">
+                                <a href="#">
+                                    <img src="img/footer-logo.png" alt="">
+                                </a>
+                                </div>
+                                <div class="social-container">
+                                    <div class="fa-social">
+                                        <a href="https://www.linkedin.com/company/AMENA-consultancy/posts/?feedView=all&viewAsMember=true"><i class="fab fa-linkedin"></i></a>
+                                        <a href="./404_page.html"><i class="fab fa-instagram"></i></a>
+                                        <a href="./404_page.html"><i class="fab fa-x"></i></a>
+                                        <a href="https://youtube.com/@AMENAconsultancy?si=5A_h_wMaJED0P2NA"><i class="fab fa-youtube-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1">
+                            <div class="ft-contact">
+                                <h6>contact us</h6>
+                                <ul>
+                                    <li>Tel: +49 178 5938799</li>
+                                    <li>E-mail: info@amenaconsultancy.de</li>
+                                    <li>Office: Dammstr. 41 </li>
+                                    <li>30419 Hannover, Germany</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 offset-lg-1">
+                            <div class="ft-newslatter">
+                                <h6>new latest</h6>
+                                <p>get the latest updates and offers.</p>
+                                <form action="https://docs.google.com/forms/d/e/1FAIpQLSeTS-ij7MM3iiX8pIgOLoLRBEbzD4VHbDJvTS_Vi0aC5ZD16g/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                                    <!-- Replace "entry.YOUR_FIELD_ID" with the actual entry ID from your form -->
+                                    <input type="email" name="entry.YOUR_FIELD_ID" placeholder="email" required>
+                                    <button type="submit" style="background-color: #e69b56; color: white;">
+                                        <i class="fa fa-send"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-option">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <ul>
+                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="javascript:void(0);" onclick="toggleContent('terms')">Terms of use</a></li>
+                                <li><a href="javascript:void(0);" onclick="toggleContent('privacy')">Privacy policy</a></li>
+                                <li><a href="javascript:void(0);" onclick="toggleContent('environment')">Environmental policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="co-text text-lg-right">
+                                <p>copyright &copy; 2024 all rights reserved by <a href="https://www.akramsafar.de/" target="_blank">akram safar</a></p>
+                                <!-- link back to c can't be removed. template is licensed under cc by 3.0. -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+    <!-- Modal for displaying content -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div id="modal-content" class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-message"></div>
+        </div>
+    </div>
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/added.js"></script>
+</body>
+
+</html>
